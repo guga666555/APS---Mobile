@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc43973243b891f4298e6e3f30c52d49, type: 3}
+  m_Name: _Definitions
+  m_EditorClassIdentifier: 
+  _moveSpeed: 4
+  _sensX: 90
+  _sensY: 90
+  _maxLowerRotation: 90
+  _maxUpperRotation: 90
+  _interactionKey: 102
+  _interactionDistance: 5
+  _interactionLayer:
+    serializedVersion: 2
+    m_Bits: 512
+  _groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  _fstepAudioRubber:
+  - {fileID: 8300000, guid: c0315912ae332024c9eda7afd5e56c69, type: 3}
+  - {fileID: 8300000, guid: fbfbd4b71a5a87248bd585771edeb195, type: 3}
+  - {fileID: 8300000, guid: 4f557283d9583af45bd18812ce7305e7, type: 3}
+  - {fileID: 8300000, guid: 6fc506c5db8372045b720787243ebca9, type: 3}
+  - {fileID: 8300000, guid: 05421038767719048bacf25833860805, type: 3}
+  - {fileID: 8300000, guid: 7607db657e89d534c88594ae29c42a12, type: 3}
+  - {fileID: 8300000, guid: 0e4c4706ebae32b45974dca6f058552b, type: 3}
+  - {fileID: 8300000, guid: ff49f44304308cf41894c11cbb3775d9, type: 3}
+  _fstepAudioGrass:
+  - {fileID: 8300000, guid: c5b7ac12ef5db3848ad4d005ee4738d8, type: 3}
+  - {fileID: 8300000, guid: 4a85d08b963e07b44950dd9b61ce6d0e, type: 3}
+  - {fileID: 8300000, guid: af6f817f5900053439da2fc49b25ff06, type: 3}
+  - {fileID: 8300000, guid: f77c16426ce270540a19fc4bfad1319f, type: 3}
+  - {fileID: 8300000, guid: 8cfe1b15a3d78514788b31705228e0df, type: 3}
+  - {fileID: 8300000, guid: 73d5b46397c3bee4caab6afc46149730, type: 3}
+  - {fileID: 8300000, guid: 7f668b39639e4354b9c25da346b60e1d, type: 3}
+  - {fileID: 8300000, guid: 4168b6d4182959248bba783786da41ca, type: 3}
+  _fstepAudioMetal:
+  - {fileID: 8300000, guid: 7552c557512d5ed43992a55bb4eed1c7, type: 3}
+  - {fileID: 8300000, guid: 35fa5086d96d16f4ca94a1c0eaea4fa4, type: 3}
+  - {fileID: 8300000, guid: 561af186bd7439e4d99843fd263d2184, type: 3}
+  - {fileID: 8300000, guid: 6c6f4aabfdbde1e409534c2e29040cbe, type: 3}
+  - {fileID: 8300000, guid: af9a9cca45c784c408b6ea39aa6e5d2e, type: 3}
+  - {fileID: 8300000, guid: f38247542d3f4ba4892247ea8cbd0abe, type: 3}
+  _fstepAudioWood:
+  - {fileID: 8300000, guid: 3d11a2433dad06545b1c446b837cf86c, type: 3}
+  - {fileID: 8300000, guid: ea505f11a1119c54dbd0d168e189519c, type: 3}
+  - {fileID: 8300000, guid: 0d25cda060772264fb4e83917e778b0f, type: 3}
+  - {fileID: 8300000, guid: 899a1ee0a1098fd47a0dbdd35204e04b, type: 3}
+  - {fileID: 8300000, guid: dcbb552578c0cbb428e1e9d6de1d2062, type: 3}
+  - {fileID: 8300000, guid: de683df7d7786b8479e88ed536c1f30d, type: 3}
+  - {fileID: 8300000, guid: 607328415cd001544a3712172959d539, type: 3}
+  - {fileID: 8300000, guid: a07dca7962e657e43955c15e70173eb0, type: 3}
+  _fstepAudioStairs:
+  - {fileID: 8300000, guid: 756b6e8f02f2a6d428d0edff734d6be8, type: 3}
+  - {fileID: 8300000, guid: 41c0746f4371fe54ab0fc8c308be9a0a, type: 3}
+  - {fileID: 8300000, guid: 61e7426604d403744baad75b037e2e44, type: 3}
+  - {fileID: 8300000, guid: 00dc03aa9e1e8e846bd74bb97f1d6f4c, type: 3}
+  - {fileID: 8300000, guid: 3f1a68cfba26d9d4e941f0d16957ae23, type: 3}
+  - {fileID: 8300000, guid: b9d16a37a24ae574ca0cfaf4042bc507, type: 3}
+  - {fileID: 8300000, guid: 55d11dbf6d45841478b26c282b77c959, type: 3}
+  - {fileID: 8300000, guid: 4cd26e3cdf53b784ea24d462dcb7fc3c, type: 3}
+  _fstepAudioAsphalt:
+  - {fileID: 8300000, guid: 043d840b6f1edf44798b311c126defd8, type: 3}
+  - {fileID: 8300000, guid: 537f3c16efbcbd047821b836f37406c1, type: 3}
+  - {fileID: 8300000, guid: cd272e3dc9788de498d7432c9dc3247b, type: 3}
+  - {fileID: 8300000, guid: c31974f9f593adf45b6a8b1165693793, type: 3}
+  - {fileID: 8300000, guid: 31ec79e2fb83e7946a74980c9aeec091, type: 3}
+  - {fileID: 8300000, guid: f529948d6db8fbc4e9e1941c02b4b9a9, type: 3}
+  - {fileID: 8300000, guid: 0f0709cfe6db98944b133b3e6271802e, type: 3}
+  - {fileID: 8300000, guid: 6929ef2b38ff54147a13e107cbb8977f, type: 3}
